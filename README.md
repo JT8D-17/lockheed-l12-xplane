@@ -4,6 +4,10 @@ This repository offers a modified and extended version of [Steve Baugh's's Lockh
 
 **This is for X-Plane 12 beta 14 and newer only!**
 
+![](Readme_Images/L12a_Lights.jpg)
+
+![](Readme_Images/L12a_Rain.jpg)
+
 &nbsp;
 
 <a name="toc"></a>
@@ -12,8 +16,9 @@ This repository offers a modified and extended version of [Steve Baugh's's Lockh
 2. [Installation](#2.0)
 3. [Repaints/Aircraft Configuration](#3.0)
 4. [Notes](#4.0)
-5. [Credits](#5.0)
-6. [License](#6.0)
+4. [Known Issues](#5.0)
+5. [Credits](#6.0)
+6. [License](#7.0)
 
 &nbsp;
 
@@ -71,20 +76,16 @@ The baseline version was 2.0.0.
 
 - Unified modern and vintage sound files.
 
-
-
-
-
 &nbsp;
 
 <a name="2.0"></a>
 ## 2. Download and Installation
 
-- Press the green "Code" button above and choose "Download ZIP" or click [here](https://github.com/JT8D-17/x-plane-metroliner/archive/refs/heads/main.zip).
+- Press the green "Code" button above and choose "Download ZIP" or click [here](https://github.com/JT8D-17/lockheed-l12-xplane/archive/refs/heads/main.zip).
 - Extract the zipped file.
-- Put the _"..."_ folder into _"X-Plane 12/Aircraft"_ (or where ever else you keep your add-on aircraft).
+- Put the _"lockheed-l12-xplane-main"_ folder (rename it, if you want to) into _"X-Plane 12/Aircraft"_ (or where ever else you keep your add-on aircraft).
 
-If successful, there will be a separate UI entry named _""_ in X-Plane 12's aircraft menu.
+If successful, there will be a separate UI entry named _"Lockheed L-12A"_ in X-Plane 12's aircraft menu.
 
 &nbsp;
 
@@ -93,62 +94,57 @@ If successful, there will be a separate UI entry named _""_ in X-Plane 12's airc
 
 ### 3.1 Compatibility
 
-Repaints done for the base model are generally compatible to this one.   
-**Repaints for Steve's (s85skater) Metroliner Mod cause transparency issues on the cabin windows!**
+Repaints done for the base model are generally compatible to this one.
 
-- If the repaint contains an altered _metro8.png (or .dds)_ file, it must be located in _"[Your livery folder]/objects/AC"_ for the passenger version or _"[Your livery folder]/objects/AT"_ for a freighter.   
-Otherwise X-Plane will load the default texture (see file structure of the _"objects"_ folder for reference).
+&nbsp;
 
-### 3.2 Aircraft configuration files
+### 3.2 Livery configuration files
 
-Aircraft configuration files are located in the livery folder at _"liveries/[Your livery folder]/config.txt"_. They may contain none or all of the following parameters and values:
+A livery can permanently be configured for a certain roof or panel type by with a "_liveryconfig.txt_" file inside of a livery folder (e.g. _"liveries/[Your livery folder]/liveryconfig.txt"_ ).    
+A _"liveryconfig.txt"_ file in the L-12a's root folder will configure the default livery.
+
+Livery configuration options (only use one value per line):
 ```
-IsFreighter=0/1
-CockpitGlass=0/1
-CabinWindows=0/1
-PilotType=Male/Female
-PropType=4Blade/5Blade
+Roof=[Solid/Glass]
+Panel=[Vintage/Modern]
 ```
 
 Parameter notes:   
-`IsFreighter=1` hides the passenger cabin and enables the freighter cabin.   
-`CockpitGlass=1` hides the black cockpit glass and enables transparent cockpit glass.   
-`CabinWindows=0` hides the black cabin windows. **Required for any repaint for Steve's PBR mod.**
-`PilotType=Female` switches to a female pilot. **Pilots are only visible when cockpit glass has been enabled.**  
-`PropType=5Blade` enabled the MT Propellers 5-bladed prop. The default dataref for the number of propellers will be adjusted accordingly.
-
-The default state is:   
-```
-IsFreighter=0
-CockpitGlass=0
-CabinWindows=1
-PilotType=Male
-PropType=4Blade
-```
-So if you want any other configuration for a repaint, prepare a corresponding config.txt.
-
-See the included liveries for example configurations.
+>  _Roof_ switches between the _Solid_ or _Glass_  roof. The default value is _Solid_, if this line is not provided.   
+> _Panel_ switches between the _Vintage_ and _Modern_ panels. The default value is _Vintage_, if this line is not provided.
 
 &nbsp;
 
 <a name="4.0"></a>
 ## 4. Notes
 
-Known issues, helpful hints, etc.
+Hints, tips, etc.
 
-- Changing a repaint from passenger to freighter (or the other way around) will not perform an aircraft configuration check. An aircraft reload with the _"Reload the Current Aircraft (Skip Art Reload)" from X-Plane's _"Developer"_ menu is required.
+- [Checklists for the Xchecklist plugin](https://forums.x-plane.org/index.php?/files/file/75723-checklist-clisttxt-for-the-humbug01-lockheed-model-12a/)
+- [Liveries](https://forums.x-plane.org/index.php?/search/&q=lockheed%20l-12a&type=downloads_file&search_and_or=and)
+- Manipulators: ![](Readme_Images/L12a_Manips_1.jpg)
+
+
 
 &nbsp;
 
 <a name="5.0"></a>
-## 5. Contributors/Credits
+## 5. Known issues
+
+See the ["Issues" tab](https://github.com/JT8D-17/lockheed-l12-xplane/issues) of this repository.   
+Feel free to add any issues there if you happen to have a Github account.
+
+&nbsp;
+
+<a name="6.0"></a>
+## 6. Contributors/Credits
 
 - Steve Baugh, Dan Hopgood [Lockheed L-12a](https://forums.x-plane.org/index.php?/files/file/75273-lockheed-model-12a-electra-junior/)
 - BK (me)
 
 &nbsp;
 
-<a name="6.0"></a>
-## 6. License
+<a name="7.0"></a>
+## 7. License
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
