@@ -95,7 +95,8 @@ If successful, there will be a separate UI entry named _"Lockheed L-12a"_ in X-P
 
 ### 3.1 Compatibility
 
-Repaints done for release 2.0.0 are generally compatible to this one.
+Repaints done for release 2.0.0 are generally compatible to this one.   
+**However, because there is _no more separate "vintage" model_, all textures and thumbnails must be renamed as if they belonged to the standard model by removing "__vintage_" from the filename.**
 
 &nbsp;
 
