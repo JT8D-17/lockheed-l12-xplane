@@ -1,6 +1,6 @@
 # Lockheed L-12a for X-Plane 12
 
-This repository offers a modified and extended version of [Steve Baugh's's Lockheed L-12a Electra Junior](https://forums.x-plane.org/index.php?/files/file/75273-lockheed-model-12a-electra-junior/) for X-Plane 12 (with permission from the author).
+This repository offers a modified and extended version of [Steve "humbug01" Baugh's Lockheed L-12a Electra Junior](https://forums.x-plane.org/index.php?/files/file/75273-lockheed-model-12a-electra-junior/) for X-Plane 12 (with permission from the author).
 
 **This is for X-Plane 12 beta 14 and newer only!**
 
@@ -14,7 +14,7 @@ This repository offers a modified and extended version of [Steve Baugh's's Lockh
 ## Table of Contents
 1. [Changes from the original model](#1.0)
 2. [Installation](#2.0)
-3. [Repaints/Aircraft Configuration](#3.0)
+3. [Liveries](#3.0)
 4. [Notes](#4.0)
 4. [Known Issues](#5.0)
 5. [Credits](#6.0)
@@ -25,14 +25,13 @@ This repository offers a modified and extended version of [Steve Baugh's's Lockh
 <a name="1.0"></a>
 ## 1. Changes from the original model
 
-See the ["Notes"](#4.0) section for any known issues and the ["Credits"](#5.0) section for links to the original modification or source material (if applicable).   
-The baseline version was 2.0.0.
+The model was made from the [2.0.0 release for X-Plane 11](https://forums.x-plane.org/index.php?/files/file/75273-lockheed-model-12a-electra-junior/) . All changes are relative to that release.
 
 &nbsp;
 
 ### 1.1 Aircraft Configuration File
 
-- Unified the modern and vintage models into a single aircraft file to facilitate updates. See ["Repaint compatibility"](#3.0) below for configuring present and future repaints.
+- Unified the modern and vintage models into a single aircraft file to facilitate updates.
 - X-Plane 12 payload stations.
 
 &nbsp;
@@ -53,7 +52,7 @@ The baseline version was 2.0.0.
 
 ### 1.4 Interactive elements
 
-- Reworked all manipulators and all now have tooltips.
+- Reworked all manipulators and all now have tool tips.
 - Number of custom commands greatly cut down.
 - New manipulators for the yokes.
 - Manipulators to toggle between cockpit types (modern/vintage)
@@ -62,13 +61,15 @@ The baseline version was 2.0.0.
 
 &nbsp;
 
-### 1.5 Systems
+### 1.5 Plugins/Scripts
 
+- Updated xlua to release 1.2.0
 - Rewrote ARN-7 vintage nav radio logic for more robustness.
 - Rewrote RCA com radio logic for 8.33 kHz capability and more robustness.
 - Rewrote fuel system logic. Fuel gauge indication is now affected by aircraft pitch.
 - Reworked ignition system logic. Magneto selectors now operable independently of master ignition switch position. However, actual engine ignition will only be available if master ignition is on.
 - Rewrote lights logic. True independent left and right landing lights that turn on with the main switch on and when deployed. Nose light now requires that the baggage door is closed.
+- Added a livery configuration script. See "[Liveries](#3.0)" below.
 
 &nbsp;
 
@@ -83,47 +84,53 @@ The baseline version was 2.0.0.
 
 - Press the green "Code" button above and choose "Download ZIP" or click [here](https://github.com/JT8D-17/lockheed-l12-xplane/archive/refs/heads/main.zip).
 - Extract the zipped file.
-- Put the _"lockheed-l12-xplane-main"_ folder (rename it, if you want to) into _"X-Plane 12/Aircraft"_ (or where ever else you keep your add-on aircraft).
+- Put the _"Lockheed_L-12a"_ folder (rename it, if you want to) into _"X-Plane 12/Aircraft"_ (or where ever else you keep your add-on aircraft).
 
-If successful, there will be a separate UI entry named _"Lockheed L-12A"_ in X-Plane 12's aircraft menu.
+If successful, there will be a separate UI entry named _"Lockheed L-12a"_ in X-Plane 12's aircraft menu.
 
 &nbsp;
 
 <a name="3.0"></a>
-## 3. Repaints/Aircraft Configuration
+## 3. Liveries
 
 ### 3.1 Compatibility
 
-Repaints done for the base model are generally compatible to this one.
+Repaints done for release 2.0.0 are generally compatible to this one.
 
 &nbsp;
 
-### 3.2 Livery configuration files
+### 3.2 Livery configuration
 
-A livery can permanently be configured for a certain roof or panel type by with a "_liveryconfig.txt_" file inside of a livery folder (e.g. _"liveries/[Your livery folder]/liveryconfig.txt"_ ).    
-A _"liveryconfig.txt"_ file in the L-12a's root folder will configure the default livery.
+Adding a "_liveryconfig.txt_" file to any livery folder (e.g. _"liveries/[Your livery folder]/liveryconfig.txt"_ ) will apply an individual aircraft configuration to this livery. See the _"liveryconfig.txt"_ file in the L-12a's root folder that configures the default livery for an example.
 
-Livery configuration options (only use one value per line):
+Available configuration options (only use one value per line):
+
 ```
 Roof=[Solid/Glass]
 Panel=[Vintage/Modern]
 ```
 
-Parameter notes:   
->  _Roof_ switches between the _Solid_ or _Glass_  roof. The default value is _Solid_, if this line is not provided.   
-> _Panel_ switches between the _Vintage_ and _Modern_ panels. The default value is _Vintage_, if this line is not provided.
+Notes:
+- _Roof_ switches between the _Solid_ or _Glass_  roof. The default value is _Solid_, if this line is not provided.   
+-  _Panel_ switches between the _Vintage_ and _Modern_ panels. The default value is _Vintage_, if this line is not provided.
 
 &nbsp;
 
 <a name="4.0"></a>
 ## 4. Notes
 
-Hints, tips, etc.
+General information:
+
+- Manuals for the X-Plane version of the L-12 are located inside the "manuals" folder.
+- Documentation about real L-12s and other reference material can be found in the "documents" folder.
+- The paint kit for creating liveries (in [GIMP .xcf](https://www.gimp.org/) format) is in the "0_paintkit" folder.
+
+Cockpit manipulators: ![](Readme_Images/L12a_Manips_1.jpg)
+
+Useful enhancements for the L-12:
 
 - [Checklists for the Xchecklist plugin](https://forums.x-plane.org/index.php?/files/file/75723-checklist-clisttxt-for-the-humbug01-lockheed-model-12a/)
 - [Liveries](https://forums.x-plane.org/index.php?/search/&q=lockheed%20l-12a&type=downloads_file&search_and_or=and)
-- Manipulators: ![](Readme_Images/L12a_Manips_1.jpg)
-
 
 
 &nbsp;
@@ -139,8 +146,10 @@ Feel free to add any issues there if you happen to have a Github account.
 <a name="6.0"></a>
 ## 6. Contributors/Credits
 
-- Steve Baugh, Dan Hopgood [Lockheed L-12a](https://forums.x-plane.org/index.php?/files/file/75273-lockheed-model-12a-electra-junior/)
-- BK (me)
+- Steve Baugh: [Lockheed L-12a 2.0.0 model, textures, animations, manipulators, Lua scripts](https://forums.x-plane.org/index.php?/files/file/75273-lockheed-model-12a-electra-junior/)
+-  Dan Hopgood: [Lockheed L-12a 2.0.0 fmod sounds](https://forums.x-plane.org/index.php?/files/file/75273-lockheed-model-12a-electra-junior/)
+- Laminar Research: [Xlua 1.2.0](https://github.com/X-Plane/XLua)
+- BK (me): Improvements post-v2.0.0 (see [section #1](#1.0))
 
 &nbsp;
 

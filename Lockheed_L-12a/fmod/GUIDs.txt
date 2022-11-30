@@ -1,0 +1,97 @@
+{1f69004e-3d44-4f16-8e3d-99af80edc31c} bank:/Master Bank
+{8774209a-4c3f-0354-0874-1351711ec584} bank:/Master Bank.strings
+{9f08114d-36ec-44cc-b8bf-b2babda09f9e} bus:/
+{7f7c05a4-e05a-4d44-94fe-d4691147a9b7} bus:/Master
+{e3492bec-f854-4fbb-b2bc-23586269032e} bus:/Master/Copilot
+{a5a85a81-afd5-4425-9dc2-6e50f7776e6a} bus:/Master/Exterior Processed
+{06db5351-0b2f-4648-b97a-a33b40a00e11} bus:/Master/Exterior Processed/Aircraft
+{b6c156f1-9861-405c-a622-92b2ab8010a7} bus:/Master/Exterior Processed/Environment
+{8dbbc9d7-a954-4ed0-b1f1-f8111b03cbd1} bus:/Master/Exterior Unprocessed
+{751f5066-4651-4afb-a410-4cb9db0894c9} bus:/Master/Interior
+{d8526059-b27c-4eae-9b14-a1ee1cb3dfa1} bus:/Master/Radios
+{77575f3b-b9cd-4bff-9056-637cff744a14} bus:/Master/UI
+{76484291-e765-422b-ab66-cfa9dbc0d091} event:/Ambient
+{291e592d-9379-4c38-8b1b-e0d06f2ed7b9} event:/Crash
+{21130184-07f7-44da-91ac-45835fed1725} event:/Doors/Close
+{6c1a7d6a-1eb7-40e4-aa07-0d37625efb51} event:/Doors/Open
+{604f7028-057e-4050-9903-43c5c2e71604} event:/Engine Crackles 1
+{8d912392-3fbf-4005-8041-e6eca13a6c38} event:/Engine Crackles 2
+{475a52f0-7c0b-4091-be54-9cf981d5035c} event:/Engine FF1
+{d5d7f000-c1f6-43bf-bdbf-85d761fa8896} event:/Engine FF2
+{4445f7bc-e49e-4a12-80c4-fd831f03a6e1} event:/Engine Far 1
+{5f57554d-fbe8-4285-82b4-f78457aa7379} event:/Engine Far 2
+{93154e79-6bdb-457b-9371-423c7a05f082} event:/Engine Far Front 1
+{3abb7851-3c52-4d67-acae-ce27359845c4} event:/Engine Far Front 2
+{73fab88d-e9f1-4443-b8bb-ed83abd0c454} event:/Engine Ignition Far 1
+{e8896a3b-5501-4192-90fd-772e19eb7cc6} event:/Engine Ignition Far 2
+{118523a6-c933-45ff-acb8-fb8c5aa3ef9c} event:/Engine Ignition Near 1
+{8423fba1-7b22-4ff7-b0c4-4da4801c2ccd} event:/Engine Ignition Near 2
+{f577aeec-59a6-497d-bbc6-69ea4d3fae07} event:/Engine Near 1
+{86ea8c4d-94d8-497b-995a-ac9db543a6bb} event:/Engine Near 2
+{36f5144e-b111-4833-be41-bfdb09fc0d10} event:/Engine Shutdown 1
+{b24ffb6c-080c-406b-b4eb-4e72fb90df0f} event:/Engine Shutdown 2
+{f90abe44-dfa3-4666-8604-6cf9b668c449} event:/Engine Side 1
+{ac0f455a-1415-4133-af99-1055ef0197ea} event:/Engine Side 2
+{37f333a7-c64e-42d4-a605-0c78c704256e} event:/Engine Side 3
+{3497fe7c-9972-4851-a347-05fac6707a98} event:/Engine Side 4
+{5a5ce781-3f7c-4261-8563-72b2205b5820} event:/Engine Starter 1
+{081a187e-8370-4d86-b116-f9c1b755599b} event:/Engine Starter 2
+{1cd9df4a-3422-4ab2-8609-2ec263503791} event:/Flaps
+{1aeb171b-8f56-4302-bfec-179d14b49fb6} event:/Landing_gear/Ground Roll
+{c1066721-c397-4763-9315-016cf6cca64a} event:/Landing_gear/Skid
+{cfeb4c92-083a-42cc-b18c-03912173f753} event:/Landing_gear/Tyre Impact Large
+{d310680f-97e0-4575-ad09-6515489aa2b0} event:/Landing_gear/Tyre Impact Small
+{8b26b38c-397f-4af1-b101-970b7d97e888} event:/Landing_gear/extend_left
+{9ea3244f-fdf2-4b5f-95d4-019a8be6c4ce} event:/Landing_gear/extend_right
+{cd8d136e-eea7-451d-9d7b-e359158546a1} event:/Landing_gear/retract_left
+{b3f229b1-ee37-4fde-a46c-099152f078be} event:/Landing_gear/retract_right
+{e2b8e048-016c-408d-ba06-ea557714e63f} event:/Nav/Garmin Sw
+{71092152-82e1-48d1-b80e-32b7114d9851} event:/Sliders/Aileron Down
+{6e28e89b-c7d0-4e6f-baea-eb96f17412e4} event:/Sliders/Aileron Up
+{aad5cd7c-5100-4afd-a8ca-ace3bc8db43a} event:/Sliders/Elev Down
+{950ec626-58f8-4e18-ae64-c78de37207a6} event:/Sliders/Elev Up
+{549b8a50-8808-4c30-9710-0df2756c3aeb} event:/Sliders/Rotary slider
+{39090336-2237-4d7e-950d-f7d80de9a4bf} event:/Sliders/Rudd L
+{072fe2f2-34d5-4c04-b7ee-c1e7fdd55c63} event:/Sliders/Rudd R
+{d34e8de6-9dcb-4688-a04f-54f7d787a7ec} event:/Sliders/cover
+{55a5c7ba-36b8-4a78-8524-9d2e6d4f82ff} event:/Sw/Brakes
+{7a9913b0-2a02-4dc0-97f9-271f6f4e0543} event:/Sw/High rotary
+{8de9df02-f1b3-47df-a696-1b75113f366f} event:/Sw/Large button off
+{8be42f67-226e-4e38-93c5-9dfd62cf155b} event:/Sw/Large button on
+{376f8cd1-fb60-4fbe-a4ea-5ca2308d3e9e} event:/Sw/Large rotary
+{fee4ad0c-da58-405b-89c9-e5bfc0da9926} event:/Sw/Loud rotary off
+{4ba21217-0235-4c92-a243-e4b703f8f89f} event:/Sw/Loud rotary on
+{1d308d9d-fc3d-4820-928a-a2a51095a443} event:/Sw/Magnetos Left
+{850b4c79-92d7-4878-b04f-d4f3fc675330} event:/Sw/Magnetos Right
+{b4343d26-fa33-430c-b210-feef51c59e72} event:/Sw/Med rotary
+{c5cb3aff-b5d6-47b4-a15e-d22d143b8489} event:/Sw/Oxygen Off
+{61981f2b-ac0b-4860-9fad-12c0649d3cbb} event:/Sw/Oxygen On
+{27ae53c5-7d01-4e96-8906-d1b41f22f7b7} event:/Sw/Parking brake
+{0df79a1d-2b3b-4d77-aa7f-b63a4f018b73} event:/Sw/Small off
+{df410c96-efa4-4d27-9c9c-f06048c292b8} event:/Sw/Small on
+{252ead6a-bee7-4eed-938b-65471bcf6e96} event:/Systems/Avionics
+{630736ad-eea6-451f-bd0f-8cdc58a7bbcc} event:/Systems/End stop
+{73f3dc0b-c771-4ccb-8d9e-8af836c1f3d2} event:/Systems/Fuel pump
+{7f2b3683-9435-484c-b29c-e93a9e2dd6e6} event:/Systems/Primer down
+{a6251f98-5f64-451b-bf28-fef96861e983} event:/Systems/Primer up
+{53a9d09d-f742-4c67-8469-78ed0e7ace81} event:/Systems/Strobe
+{e53d4e98-3908-4bf3-8647-3fdb7e5468de} event:/Systems/Throttle
+{ae5784d4-5a9e-4734-8ab0-3253653dfa3e} event:/Systems/Trim
+{d6fe0de0-74cb-4728-a495-b5cce7479071} event:/Wind/Stall Judder
+{62dade6e-a21e-46ec-baf6-369983192782} event:/Wind/cockpit_rain
+{30d7f2e9-cd16-43d1-831c-73e342ead766} event:/Wind/cockpit_wind
+{6efef4c8-17b5-4d65-b493-21774584064d} event:/Wind/landing_gear_wind
+{86aa58a6-2db9-4674-91d0-0ed34207044e} parameter:/Ambient/Distance
+{ea88f0c8-0267-4248-acc0-ee60a22855b9} parameter:/Distance
+{19620e81-7ce3-4f74-bcea-177efd04ac5f} parameter:/Event Cone Angle
+{119128dc-688b-4d9e-90fb-341f4c8dac6c} parameter:/Migration Name Conflict (1)/Distance
+{91a36445-1e05-499e-9f52-fe5f81400b87} parameter:/Migration Name Conflict (2)/Distance
+{bf0390c2-a543-4219-824b-f7a680d8d4ea} parameter:/sim.cockpit2.engine.actuators.throttle_ratio[0]
+{e2856f5e-d216-4ae3-a903-d67d29dfcfd1} parameter:/sim.cockpit2.engine.actuators.throttle_ratio[1]
+{490a4279-0e0d-477c-900e-bd148da8c336} parameter:/sim.flightmodel2.engines.engine_rotation_speed_rad_sec[0]
+{940772b6-fed2-4ed6-bda5-e487ea5204a8} parameter:/sim.flightmodel2.engines.engine_rotation_speed_rad_sec[1]
+{4ea17b77-1071-432d-9ca8-4c68304747aa} parameter:/sim.flightmodel2.gear.tire_vertical_deflection_mtr[1]
+{e333e310-181d-422e-af50-22d11aeac34d} parameter:/sim/cockpit2/oxygen/actuators/o2_valve_on[*]
+{af81b075-aea0-4a47-ab6c-428c7daa681b} snapshot:/Door Open0
+{85d6954c-a8d4-4043-a6ec-79922c840fbf} snapshot:/Door Open1
+{2665986b-2b16-4f64-be13-42af7cf54ed2} snapshot:/Start Silent

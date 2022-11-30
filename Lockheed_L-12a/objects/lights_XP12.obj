@@ -1,0 +1,36 @@
+I
+800
+OBJ
+
+TEXTURE
+
+POINT_COUNTS 0 0 0 0
+ATTR_LOD 0.000000 5000.000000
+
+# Red Nav Left
+LIGHT_PARAM	airplane_nav_bb -7.543294 0.410879 3.468316 1 0 0 0 2000cd -1.0 -0.01 -0.01 0.01
+LIGHT_PARAM	airplane_nav_pm -7.543294 0.410879 3.468316 1 0 0 0 250cd -1.0 -0.01 -0.01 0.4
+# Green Nav Right
+LIGHT_PARAM	airplane_nav_bb 7.543294 0.410879 3.468316 0 1 0 0 2000cd 1.0 -0.01 -0.01 0.01
+LIGHT_PARAM	airplane_nav_pm 7.543294 0.410879 3.468316 0 1 0 0 250cd 1.0 -0.01 -0.01 0.4
+# Tail Strobe
+LIGHT_PARAM	airplane_strobe_bb 0.000028 0.971267 11.058400 1 1 1 0 2000cd 0.0 0.0 0.01 0.01
+LIGHT_PARAM	airplane_strobe_pm 0.000028 0.971267 11.058400 1 1 1 0 250cd 0.0 0.0 0.01 0.4
+# Rotating Beacon
+LIGHT_PARAM airplane_beacon_rotate 0.000000 1.237370 7.946400 0.70 0.00
+LIGHT_PARAM airplane_beacon_rotate_sp 0.000000 1.237370 7.946400 0.70 0.00 7 0.45
+# Nose/Taxi
+LIGHT_PARAM airplane_taxi_sp -0.000418 -0.003906 -0.018996 0.00 0.00 0.00 0.00 250.00 0.90
+LIGHT_PARAM airplane_taxi_core -0.000596 -0.003781 -0.018966 0.00 0.00 -1.00 0.00 1.00
+LIGHT_PARAM airplane_taxi_flare -0.000596 -0.003781 -0.018966 0.00 0.00 -1.00 0.00 1.00
+LIGHT_PARAM airplane_taxi_glow -0.000596 -0.003781 -0.018975 0.00 0.00 -1.00 0.00 1.00
+# Landing light left
+LIGHT_PARAM airplane_landing_core -4.813000 -0.116008 2.951686 0.00 0.00 -1.00 0 1.00
+LIGHT_PARAM airplane_landing_flare -4.813000 -0.116008 2.951686 0.00 0.00 -1.00 0 1.00
+LIGHT_PARAM airplane_landing_glow -4.813000 -0.116008 2.951686 0.00 0.00 -1.00 0 1.00
+LIGHT_PARAM airplane_landing_sp -4.813000 -0.116008 2.951694 1.00 1.00 1.00 0 500.00 0.81
+# Landing light right
+LIGHT_PARAM airplane_landing_core 4.813410 -0.115992 2.952514 0.00 0.00 -1.00 1 1.00
+LIGHT_PARAM airplane_landing_flare 4.813410 -0.115992 2.952514 0.00 0.00 -1.00 1 1.00
+LIGHT_PARAM airplane_landing_glow 4.813410 -0.115992 2.952514 0.00 0.00 -1.00 1 1.00
+LIGHT_PARAM airplane_landing_sp 4.813410 -0.115992 2.952506 1.00 1.00 1.00 1 500.00 0.81

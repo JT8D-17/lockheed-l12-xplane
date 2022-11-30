@@ -1,0 +1,64 @@
+--[[
+xxyy for the Lockheed L12a
+by S. Baugh
+mod by BK
+]]
+--[[
+
+X-PLANE DATAREFS
+
+]]
+-- simDR_start_running = find_dataref("sim/operation/prefs/startup_running") -- Is aircraft initialized with engines running?
+-- simDR_auto_start = find_dataref("sim/flightmodel2/misc/auto_start_in_progress") -- Is autostart event happening?
+--[[
+
+X-PLANE COMMANDS
+
+]]
+
+--[[
+
+CUSTOM DATAREFS
+
+]]
+function fake_handler() end -- Usage of a handler, even if fake, makes custom datarefs writable
+
+--[[
+
+VARIABLES
+
+]]
+
+
+--[[
+
+FUNCTIONS
+
+]]
+
+--[[
+
+COMMAND CALLBACKS
+
+]]
+
+--[[
+
+CUSTOM COMMANDS
+
+]]
+
+--[[
+
+RUNTIME INTEGRATION
+
+]]
+--[[ Runs at X-Plane session start or aircraft load ]]
+--function flight_start()
+--end
+--[[ Runs during X-Plane session ]]
+--function after_physics()
+--end
+--[[ Runs during aircraft unload ]]
+--function aircraft_unload()
+--end

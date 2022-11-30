@@ -1,0 +1,2 @@
+Roof=Glass
+Panel=Modern
