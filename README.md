@@ -126,7 +126,14 @@ General information:
 - Documentation about real L-12s and other reference material can be found in the "documents" folder.
 - The paint kit for creating liveries (in [GIMP .xcf](https://www.gimp.org/) format) is in the "0_paintkit" folder.
 
-Cockpit manipulators: ![](Readme_Images/L12a_Manips_1.jpg)
+Vintage panel manipulators: 
+![](Readme_Images/L12a_Manips_V.jpg)
+
+Modern panel manipulators:
+![](Readme_Images/L12a_Manips_M.jpg)
+
+Cockpit ceiling manipulator:
+![](Readme_Images/L12a_Manips_U.jpg)
 
 Useful enhancements for the L-12:
 
