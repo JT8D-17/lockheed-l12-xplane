@@ -80,7 +80,7 @@ The model was made from the [2.0.0 release for X-Plane 11](https://forums.x-plan
 ### 1.6 Sounds
 
 - Developed instructions to unify the regular and vintage avionics sound files. This has to be done manually because I am not allowed to distribute the fmod sound package.
-See "[Installation instructions](#2.0)" below.
+See the "[installation instructions](#2.0)" below.
 
 &nbsp;
 
