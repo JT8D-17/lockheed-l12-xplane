@@ -4,6 +4,10 @@ This repository offers a modified and extended version of [Steve "humbug01" Baug
 
 **This is for X-Plane 12 beta 14 and newer only!**
 
+**This, and any referred documents must be read and understood from beginning to end, otherwise I refuse to provide any support!**
+
+&nbsp;
+
 ![](Readme_Images/L12a_Lights.jpg)
 
 ![](Readme_Images/L12a_Rain.jpg)
@@ -76,7 +80,7 @@ The model was made from the [2.0.0 release for X-Plane 11](https://forums.x-plan
 ### 1.6 Sounds
 
 - Developed instructions to unify the regular and vintage avionics sound files. This has to be done manually because I am not allowed to distribute the fmod sound package.
-See the installation instructions below.
+See "[Installation instructions](#2.0)" below.
 
 &nbsp;
 
@@ -153,10 +157,12 @@ Useful enhancements for the L-12:
 <a name="5.0"></a>
 ## 5. Known issues
 
-**No fmod sounds are included due to licensaing issues. Fmod files from the original download have to be modified manually. See the installation instructions.**
+**No fmod sounds are included due to licensing issues. Fmod files from the original download have to be modified manually. See the installation instructions. 
+If you have CC-BY-NC 4.0 licensed fmod sounds, please get back to me or add them via merge request.**
 
 See the ["Issues" tab](https://github.com/JT8D-17/lockheed-l12-xplane/issues) of this repository.   
 Feel free to add any issues there if you happen to have a Github account.
+**Merge requests with bugfixes are welcome. I do not have time or motivation to do everything on my own.**
 
 &nbsp;
 
