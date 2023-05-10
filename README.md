@@ -107,7 +107,7 @@ If successful, there will be a separate UI entry named _"Lockheed L-12a"_ in X-P
 ### 3.1 Compatibility
 
 Repaints done for release 2.0.0 are generally compatible to this one.   
-**All textures and thumbnails must be renamed to _L12a_XP12_icon11.png_ and _L12a_XP12_icon11_thumb.png_ **
+**All textures and thumbnails must be renamed to _L12a_XP12_icon11.png_ and _L12a_XP12_icon11_thumb.png_!**
 
 &nbsp;
 
