@@ -55,15 +55,15 @@ The model was made from the [2.0.0 release for X-Plane 11](https://forums.x-plan
 - Reworked all manipulators and all now have tool tips.
 - Number of custom commands greatly cut down.
 - New manipulators for the yokes.
-- Manipulators to toggle between cockpit types (modern/vintage)
-- Manipulators to toggle roof type (solid/glass)
+- Manipulators to toggle between cockpit types (modern/vintage).
+- Manipulators to toggle roof type (solid/glass).
 - Control lock lever works now.
 
 &nbsp;
 
 ### 1.5 Plugins/Scripts
 
-- Updated xlua to release 1.2.0
+- Updated xlua to release 1.2.0.
 - Rewrote ARN-7 vintage nav radio logic for more robustness.
 - Rewrote RCA com radio logic for 8.33 kHz capability and more robustness.
 - Rewrote fuel system logic. Fuel gauge indication is now affected by aircraft pitch.
@@ -73,18 +73,18 @@ The model was made from the [2.0.0 release for X-Plane 11](https://forums.x-plan
 
 &nbsp;
 
-### 1.6 Sounds
-
-- Unified modern and vintage sound files.
-
-&nbsp;
-
 <a name="2.0"></a>
 ## 2. Download and Installation
 
 - Press the green "Code" button above and choose "Download ZIP" or click [here](https://github.com/JT8D-17/lockheed-l12-xplane/archive/refs/heads/main.zip).
 - Extract the zipped file.
+- Optional: Remove the _"0_paintkit"_ and "_0_sources_" folder to save disk space if you do not need them.
 - Put the _"Lockheed_L-12a"_ folder (rename it, if you want to) into _"X-Plane 12/Aircraft"_ (or where ever else you keep your add-on aircraft).
+
+Because the fmod sounds are not included due to licensing issues:
+- Download the [original v2.0.0 release of the L-12a](https://forums.x-plane.org/index.php?/files/file/75273-lockheed-model-12a-electra-junior/).
+- Add the "fmod" folder from the original 2.0.0 download to the _"Lockheed_L-12a"_ folder and rename _fmod/L12a.snd_ to _fmod/L12a_XP12.snd_.  
+- Then either modify the fmod file as per my instructions [in the project wiki](https://github.com/JT8D-17/lockheed-l12-xplane/wiki/Do-it-yourself-fmod-snd-file-editing) or live with a few bugs and missing sounds.
 
 If successful, there will be a separate UI entry named _"Lockheed L-12a"_ in X-Plane 12's aircraft menu.
 
@@ -96,7 +96,7 @@ If successful, there will be a separate UI entry named _"Lockheed L-12a"_ in X-P
 ### 3.1 Compatibility
 
 Repaints done for release 2.0.0 are generally compatible to this one.   
-**However, because there is _no more separate "vintage" model_, all textures and thumbnails must be renamed as if they belonged to the standard model by removing "__vintage_" from the filename.**
+**All textures and thumbnails must be renamed to _L12a_XP12_icon11.png_ and _L12a_XP12_icon11_thumb.png_ **
 
 &nbsp;
 
@@ -146,6 +146,8 @@ Useful enhancements for the L-12:
 <a name="5.0"></a>
 ## 5. Known issues
 
+**No fmod sounds are included due to licensaing issues. Fmod files from the original download have to be modified manually. See the installation instructions.**
+
 See the ["Issues" tab](https://github.com/JT8D-17/lockheed-l12-xplane/issues) of this repository.   
 Feel free to add any issues there if you happen to have a Github account.
 
@@ -155,7 +157,6 @@ Feel free to add any issues there if you happen to have a Github account.
 ## 6. Contributors/Credits
 
 - Steve Baugh: [Lockheed L-12a 2.0.0 model, textures, animations, manipulators, Lua scripts](https://forums.x-plane.org/index.php?/files/file/75273-lockheed-model-12a-electra-junior/)
--  Dan Hopgood: [Lockheed L-12a 2.0.0 fmod sounds](https://forums.x-plane.org/index.php?/files/file/75273-lockheed-model-12a-electra-junior/)
 - Laminar Research: [Xlua 1.2.0](https://github.com/X-Plane/XLua)
 - BK (me): Improvements post-v2.0.0 (see [section #1](#1.0))
 
