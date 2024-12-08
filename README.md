@@ -1,5 +1,12 @@
 # Lockheed L-12a for X-Plane 12
 
+**2024/12/08: This repository has been archived because an immproved release of the Lockheed 12a has been produced and is available on [X-Plane.org](https://forums.x-plane.org/index.php?/files/file/93527-lockheed-model-12a-electra-junior/)**
+
+&nbsp;
+&nbsp;
+
+**Original readme:**
+
 This repository offers a modified and extended version of [Steve "humbug01" Baugh's Lockheed L-12a Electra Junior](https://forums.x-plane.org/index.php?/files/file/75273-lockheed-model-12a-electra-junior/) for X-Plane 12 (with permission from the author).
 
 **This is for X-Plane 12 beta 14 and newer only!**
